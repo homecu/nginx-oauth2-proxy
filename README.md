@@ -1,10 +1,10 @@
-nginx_oauth2_proxy
-========
-Docker build for nginx biased build of oauth2-proxy
+# nginx_oauth2_proxy #
+
+Docker build for nginx based build of oauth2-proxy
 
 
-Usage
---------
+## Usage ##
+
 Use the docker build that stems from this project.
 
-    docker run jmayfield/nginx-oauth2-proxy --help
+    docker run homecu/nginx-oauth2-proxy --help
