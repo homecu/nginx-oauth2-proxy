@@ -1,5 +1,5 @@
+TAG:=homecu/nginx_oauth2_proxy
 all: build
 
-
 build:
-	docker build -t nginx-oauth2-proxy .
+	docker build -t $(TAG) .
