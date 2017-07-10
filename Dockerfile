@@ -1,6 +1,6 @@
 FROM golang:1.7.3
 
-RUN go get github.com/mayfield/oauth2_proxy
+RUN go get github.com/homecu/oauth2_proxy
 COPY templates /templates
 EXPOSE 80
 ENTRYPOINT [ \
