@@ -1,5 +1,6 @@
 TAG:=homecu/nginx_oauth2_proxy
 all: build
 
-build:
+.PHONY: build
+build: Dockerfile
 	docker build -t $(TAG) .
