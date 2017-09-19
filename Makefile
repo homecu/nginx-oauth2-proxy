@@ -1,4 +1,4 @@
-TAG:=homecu/nginx_oauth2_proxy
+TAG:=homecu/nginx-oauth2-proxy
 all: build
 
 .PHONY: build
