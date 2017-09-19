@@ -1,4 +1,4 @@
-# nginx_oauth2_proxy #
+# nginx-oauth2-proxy #
 
 Docker build for nginx based build of oauth2-proxy
 
